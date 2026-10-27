@@ -1,18 +1,17 @@
 
 import { createRouter, createWebHistory } from 'vue-router'
 
-import HelloWorld from '../views/HelloWorld.vue'
-
+import {HomeAdminView, HomeUserView} from "../views/index.js";
 const routes = [
     {
         path: '/',
         name: 'home',
-        component: HelloWorld,
+        component: HomeUserView,
     },
     {
         path: '',
         name: 'home',
-        component: HelloWorld,
+        component: HomeUserView,
     },
 ]
 
